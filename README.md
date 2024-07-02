@@ -22,10 +22,32 @@ Several image processing functions are defined and used:
 - `plot_pixel_trend`: Analyzes specific pixels and their trends over multispectral images.
 
 ### Visualization
-The notebook includes several plots and visualizations to show the trends and characteristics of different regions' multispectttral pixel values. Combined trends for different sets of these regions are plotted.
+The notebook includes several plots and visualizations to show the trends and characteristics of different regions' multispectral pixel values. Combined trends for different sets of these regions are plotted.
 
 ### Highlighting Regions
 The `show_image_with_circle` function highlights specific regions corresponding to different regions in the images.
+
+
+## Notebook Summary: segmenting_ink_using_multispectral_value_clustering_1.ipynb
+
+### Introduction
+The notebook titled "segmenting_ink_using_multispectral_value_clustering_1.ipynb" focuses on segmenting and analyzing various regions such as ink, parchment, holes, rice, and background using clustering techniques.
+
+### Reading Multispectral Images
+- The folder containing multispectral images is specified.
+- Images are read into an array called `image_cube`.
+- The images are cropped to focus on a specific fragment region.
+
+## Clustering and Segmentation
+- The notebook uses clustering techniques (KMeans and Gaussian Mixture) to segment the multispectral images into different regions based on pixel values.
+- It assigns contrastive colors to different clusters for visualization.
+- Functions like `get_pixel_info` and `plot_pixel_distribution` analyze and visualize the clustering results.
+
+## Thresholding Techniques
+- Various thresholding techniques such as Otsu, Niblack, and Sauvola are applied to segment specific regions in the images.
+- The results of these techniques are visualized using matplotlib.
+
+
 
 
 
