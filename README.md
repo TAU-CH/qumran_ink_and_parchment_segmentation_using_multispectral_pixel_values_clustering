@@ -1,4 +1,4 @@
-# qumran_ink_segmentation_using_multipectral_pixel_values_clustering
+# qumran_ink_and_parchment_segmentation_using_multipectral_pixel_values_clustering
 This project focuses on segmenting ink on the Dead Sea Scroll fragments by clustering multispectral pixel values.
 
 ## Notebook Summary: qumran_ink_segmentation_using_multispectral_pixel_values_clustering.ipynb
