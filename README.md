@@ -12,9 +12,8 @@ Two primary functions are defined:
 - `histogram_equalization(image)`: Performs histogram equalization on 16-bit images to enhance contrast.
 
 ### Reading Multispectral Images
-- The folder containing multispectral images is [here](https://github.com/TAU-CH/qumran_ink_and_parchment_segmentation_using_multispectral_pixel_values_clustering/releases/download/v1.0.0/124-001.zip)
-<!-- [here](https://tauex-my.sharepoint.com/:u:/g/personal/berat_tauex_tau_ac_il/Ee9l3mTCIzNNteMEEKLhfsIBpCohdMuu3HYIVIFbIKjIGQ?e=PV4tO1).-->
-- It constructs a multispectral image cube from this [folder](https://tauex-my.sharepoint.com/:u:/g/personal/berat_tauex_tau_ac_il/Ee9l3mTCIzNNteMEEKLhfsIBpCohdMuu3HYIVIFbIKjIGQ?e=PV4tO1). It reads the 12 `.tif` image files in the folder and stacks them along the first dimension to create the image cube.
+- The folder containing multispectral images is [here](https://github.com/TAU-CH/qumran_ink_and_parchment_segmentation_using_multispectral_pixel_values_clustering/releases/download/v1.0.0/124-001.zip).
+- It constructs a multispectral image cube from this [folder](https://github.com/TAU-CH/qumran_ink_and_parchment_segmentation_using_multispectral_pixel_values_clustering/releases/download/v1.0.0/124-001.zip). It reads the 12 `.tif` image files in the folder and stacks them along the first dimension to create the image cube.
 - The images are cropped to focus on a specific fragment region.
 
 ### Image Processing and Analysis
